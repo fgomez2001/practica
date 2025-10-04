@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empanadas La Chilena</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container my-4">
+
+    <!-- Header -->
+    <header class="d-flex align-items-center mb-4">
+      <img src="logo.png" alt="Logo" class="me-3" width="50" height="50">
+      <h1 class="h3">Empanadas La Chilena</h1>
+    </header>
+
+    <!-- Menú de empanadas -->
+    <section class="mb-4">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <span>Empanada de Pino</span>
+        <input type="number" min="0" class="form-control w-25 text-center">
+      </div>
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <span>Empanada de Queso</span>
+        <input type="number" min="0" class="form-control w-25 text-center">
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <span>Empanada Napolitana</span>
+        <input type="number" min="0" class="form-control w-25 text-center">
+      </div>
+    </section>
+
+    <!-- Dirección de entrega -->
+    <section class="mb-4">
+      <input type="text" class="form-control" placeholder="Dirección de entrega">
+    </section>
+
+    <!-- Botón pagar -->
+    <section class="mb-4 text-center">
+      <button class="btn btn-success px-5">Pagar ahora</button>
+    </section>
+
+    <!-- Mensajes -->
+    <section class="d-flex align-items-center text-success mb-2">
+      <span class="me-2">✅</span>
+      <span>Pedido confirmado</span>
+    </section>
+    <section class="d-flex align-items-center text-danger">
+      <span class="me-2">❌</span>
+      <span>Error: Falta información en el pedido</span>
+    </section>
+
+  </div>
+</body>
+</html>
